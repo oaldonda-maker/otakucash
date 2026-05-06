@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="flex items-center flex-col justify-center h-screen bg-[url(/ocbg.jpg)] bg-contain">
+    <div className="flex items-center flex-col justify-center h-screen bg-[url(/ocbg.jpg)] md:bg-contain bg-cover md:bg-repeat bg-no-repeat">
       <div>
         <p className="text-center text-2xl [text-shadow:_2px_2px_0px_rgb(0,0,0)]">
           Under Construction
