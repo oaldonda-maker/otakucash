@@ -1,18 +1,18 @@
 export default function Home() {
   return (
-    <div className="flex items-center flex-col justify-center h-screen">
+    <div className="flex items-center flex-col justify-center h-screen bg-[url(/ocbg.jpg)] bg-contain">
       <div>
-        <p className="text-center text-2xl">
+        <p className="text-center text-2xl [text-shadow:_2px_2px_0px_rgb(0,0,0)]">
           Under Construction
         </p>
       </div>
       <div>
-        <p className="text-center text-2xl">
+        <p className="text-center text-2xl [text-shadow:_2px_2px_0px_rgb(0,0,0)]">
           More to come
         </p>
       </div>
       <div>
-        <p className="text-center text-2xl">
+        <p className="text-center text-2xl [text-shadow:_2px_2px_0px_rgb(0,0,0)]">
           For more information email us at{" "}
           <a href="mailto:info@otakucash.com"
              className="hover:underline cursor-pointer ">info@otakucash.com</a>
